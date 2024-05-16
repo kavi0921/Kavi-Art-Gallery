@@ -49,14 +49,13 @@ body{
   }
   .frist-lines img {
      height: 100%;
-     width: 139%;
-     
+     width: 124%    
   }
   .sec-lines img{
     height: 100%;
     width: 84%;
     position: relative;
-    left: 35px;
+    left: 41px;
    
  }
  /*art-main*/
