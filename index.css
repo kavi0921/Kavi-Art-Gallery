@@ -1,0 +1,327 @@
+body{
+     background-color: black;
+
+}
+ .welcome{
+     height: 100%;
+     width: auto;
+     background-color: aqua;
+     display: flex;
+     justify-content: center;
+ }
+ .welcome video{
+    width:294px; 
+    height:157px;
+ }
+ .logo-main{
+     height: auto;
+     width: auto;
+     background-color: #ffec00;
+     display: flex;
+     justify-content: center;
+ }
+ /*.logo-main h1{
+  color: #b0f5ff;
+  position: absolute;
+  top: 90px;
+  left: 137px;
+  font-size: 37px;
+  font-family: math;
+  rotate: -8deg;
+  text-decoration: 1px 0px 15px #00e1ff;
+ }*/
+ .logo img{
+    height: 100% ;
+     width: 100%;
+     
+     
+ }
+ 
+ /* frist-lines-of-art-main-div*/
+  .frist-lines-of-art-main-div{
+     height: auto;
+     width: auto;
+     background-color: rgb(0, 0, 0);
+     display: flex;
+     justify-content: space-evenly;
+     background-color: rgb(0 255 141);
+
+  }
+  .frist-lines img {
+     height: 100%;
+     width: 139%;
+     
+  }
+  .sec-lines img{
+    height: 100%;
+    width: 84%;
+    position: relative;
+    left: 35px;
+   
+ }
+ /*art-main*/
+ .Art-main{
+   height: auto;
+   width: auto;
+   background-color: rgb(0, 0, 0);
+   display: flex;
+   justify-content: space-evenly;
+   border: 2px solid rgb(255, 255, 255);
+
+}
+.frist-img img{
+   height: 100%;
+   width: 93%;
+   border: 3px solid rgb(255, 255, 255);
+   animation-name: fristimgani;
+   animation-duration: 5s;
+   animation-timing-function: ease-in;
+   animation-delay: 3s;
+ animation-iteration-count: infinite;
+ background-color: honeydew;
+   
+   
+}
+@keyframes  fristimgani {
+    0%{ border-color: rgb(255, 255, 255);}
+    10%{border-color: aqua;}
+    20%{border-color: #ffec00;}
+    40%{ border-color: rgb(47, 0, 255);}
+    60%{ border-color: rgb(255, 0, 0);}
+    80%{ border-color: rgb(255, 0, 234);}
+    100%{ border-color: rgb(9, 255, 0);}
+}
+.sec-img img{
+  height: 100%;
+  width: 98%;
+  position: relative;
+  border: 3px solid rgb(254, 254, 254);
+  animation-name: secimgani;
+  animation-duration: 5s;
+  animation-timing-function: ease-in;
+  animation-delay: 3s;
+animation-iteration-count: infinite;
+background-color: honeydew;
+   
+}
+@keyframes  secimgani {
+   0%{ border-color: aqua;}
+   10%{border-color: aqua;}
+   20%{border-color: #ffec00;}
+   40%{ border-color: rgb(47, 0, 255);}
+   60%{ border-color: rgb(255, 0, 0);}
+   80%{ border-color: rgb(255, 0, 234);}
+   100%{ border-color: rgb(9, 255, 0);}
+
+}
+ /*   THREE FOUR  IMG*/
+ .Art-main-sec{
+   height: auto;
+   width: auto;
+   background-color: rgb(0, 0, 0);
+   display: flex;
+   justify-content: space-evenly;
+   border: 2px solid rgb(255, 255, 255);
+
+}
+
+.three-img img{
+   height: 100%;
+   width: 94%;
+   border: 3px solid rgb(255, 255, 255);
+   animation-name: threeimgani;
+   animation-duration: 5s;
+   animation-timing-function: ease-in;
+   animation-delay: 3s;
+ animation-iteration-count: infinite;
+ background-color: honeydew;
+   
+}
+@keyframes  threeimgani {
+    0%{ border-color: rgb(255, 255, 255);}
+    10%{border-color: aqua;}
+    20%{border-color: #ffec00;}
+    40%{ border-color: rgb(47, 0, 255);}
+    60%{ border-color: rgb(255, 0, 0);}
+    80%{ border-color: rgb(255, 0, 234);}
+    100%{ border-color: rgb(9, 255, 0);}
+}
+.four-img img{
+  height: 100%;
+  width: 98%;
+  position: relative;
+  border: 3px solid rgb(254, 254, 254);
+  animation-name: fourimgani;
+  animation-duration: 5s;
+  animation-timing-function: ease-in;
+  animation-delay: 3s;
+animation-iteration-count: infinite;
+background-color: honeydew;
+   
+}
+@keyframes  fourimgani {
+   0%{ border-color: aqua;}
+   10%{border-color: aqua;}
+   20%{border-color: #ffec00;}
+   40%{ border-color: rgb(47, 0, 255);}
+   60%{ border-color: rgb(255, 0, 0);}
+   80%{ border-color: rgb(255, 0, 234);}
+   100%{ border-color: rgb(9, 255, 0);}
+
+}
+ /* Sec & thard-lines-of-art-main-div*/
+ .sec-lines-of-art-main-div{
+   height: auto;
+   width: auto;
+   background-color: rgb(0, 0, 0);
+   display: flex;
+   justify-content: space-evenly;
+   background-color: honeydew;
+
+}
+.thard-lines img {
+   height: 100%;
+   width: 100%;
+   
+}
+.fourth-lines img{
+  height: 100%;
+  width: 100%;
+  position: relative;
+  
+ 
+}
+
+
+ /* FIve & Six */
+ .Art-main-thard{
+   height: auto;
+   width: auto;
+   background-color: rgb(0, 0, 0);
+   display: flex;
+   justify-content: space-evenly;
+   border: 2px solid rgb(255, 255, 255);
+
+}
+
+.five-img img{
+   height: 100%;
+   width: 94%;
+   border: 3px solid rgb(255, 255, 255);
+   animation-name: fiveimgani;
+   animation-duration: 5s;
+   animation-timing-function: ease-in;
+   animation-delay: 3s;
+ animation-iteration-count: infinite;
+ background-color: honeydew;
+   
+}
+@keyframes  fiveimgani {
+    0%{ border-color: rgb(255, 255, 255);}
+    10%{border-color: aqua;}
+    20%{border-color: #ffec00;}
+    40%{ border-color: rgb(47, 0, 255);}
+    60%{ border-color: rgb(255, 0, 0);}
+    80%{ border-color: rgb(255, 0, 234);}
+    100%{ border-color: rgb(9, 255, 0);}
+}
+.six-img img{
+  height: 100%;
+  width: 98%;
+  position: relative;
+  border: 3px solid rgb(254, 254, 254);
+  animation-name: siximgani;
+  animation-duration: 5s;
+  animation-timing-function: ease-in;
+  animation-delay: 3s;
+animation-iteration-count: infinite;
+background-color: honeydew;
+
+   
+}
+@keyframes  siximgani {
+   0%{ border-color: aqua;}
+   10%{border-color: aqua;}
+   20%{border-color: #ffec00;}
+   40%{ border-color: rgb(47, 0, 255);}
+   60%{ border-color: rgb(255, 0, 0);}
+   80%{ border-color: rgb(255, 0, 234);}
+   100%{ border-color: rgb(9, 255, 0);}
+
+} 
+ /* Seven & Eight  */
+ .Art-main-fourth{
+   height: auto;
+   width: auto;
+   background-color: rgb(0, 0, 0);
+   display: flex;
+   justify-content: space-evenly;
+   border: 2px solid rgb(255, 255, 255);
+
+}
+
+.seven-img img{
+   height: 100%;
+   width: 94%;
+   border: 3px solid rgb(255, 255, 255);
+   animation-name: sevenimgani;
+   animation-duration: 5s;
+   animation-timing-function: ease-in;
+   animation-delay: 3s;
+ animation-iteration-count: infinite;
+ background-color: honeydew;
+   
+}
+@keyframes  sevenimgani {
+    0%{ border-color: rgb(255, 255, 255);}
+    10%{border-color: aqua;}
+    20%{border-color: #ffec00;}
+    40%{ border-color: rgb(47, 0, 255);}
+    60%{ border-color: rgb(255, 0, 0);}
+    80%{ border-color: rgb(255, 0, 234);}
+    100%{ border-color: rgb(9, 255, 0);}
+}
+.eight-img img{
+  height: 100%;
+  width: 98%;
+  position: relative;
+  border: 3px solid rgb(254, 254, 254);
+  animation-name: eightimgani;
+  animation-duration: 5s;
+  animation-timing-function: ease-in;
+  animation-delay: 3s;
+animation-iteration-count: infinite;
+background-color: honeydew;
+
+   
+}
+@keyframes  eightimgani {
+   0%{ border-color: aqua;}
+   10%{border-color: aqua;}
+   20%{border-color: #ffec00;}
+   40%{ border-color: rgb(47, 0, 255);}
+   60%{ border-color: rgb(255, 0, 0);}
+   80%{ border-color: rgb(255, 0, 234);}
+   100%{ border-color: rgb(9, 255, 0);}
+
+} 
+/* FOOTER*/
+
+.footer{
+    height: auto;
+    width: auto;
+    background-color: rebeccapurple;
+    padding-top: 5px;
+}
+.footer-logo video {
+   width: 100%;
+   height: 100%;
+}
+.footer-two{
+   height: auto;
+   width: 100%;
+}
+.footer-two video{
+   width: 100%;
+   height: 100%;
+}
